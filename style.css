@@ -1,0 +1,182 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    
+    border-bottom: 2px solid #007bff;
+}
+
+.logo {
+    height: 30px;
+}
+
+.nav-right {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.lang-icon {
+    height: 20px;
+}
+
+.main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+}
+
+.card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+ 
+    width: 500px;
+    padding: 20px;
+    text-align: center;
+}
+
+.card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.card-logo {
+    height: 30px;
+}
+
+.offer {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: #ff4500;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.exit-icon {
+    height: 15px;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.toggle-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 20px;
+}
+
+.btn {
+    padding: 10px 20px;
+    border: 1px solid #007bff;
+    background-color: white;
+    color: #007bff;
+    border-radius: 20px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.btn.active, .btn:hover {
+    background-color: #007bff;
+    color: white;
+}
+
+.input-field {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.password-container {
+    position: relative;
+}
+
+.eye-icon {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 20px;
+    cursor: pointer;
+}
+
+.qr-text {
+    font-size: 12px;
+    color: #888;
+    margin-bottom: 15px;
+}
+
+
+.login-form {
+    width: 300px;
+    padding: 20px;
+}
+
+
+.login-form input {
+    width: 250px;
+    height: 30px;
+   padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.password-wrapper {
+    position: relative;
+     
+}
+
+.password-wrapper input {
+ width: 250px;
+}
+
+.toggle-password {
+    position: absolute;
+    right: 5px;
+    top: 8px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.login-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    opacity: 0.6;
+}
+
+.login-form button:enabled {
+    opacity: 1;
+}
